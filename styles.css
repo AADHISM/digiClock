@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url("/pattern.png");
+    background-repeat: ;
+}
+
+.main{
+    margin:100px auto;
+    width:323px;
+    height:200px;
+    background: cadetblue;
+    position: relative;
+    padding-top:4em;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius:200px;
+}
+
+.badge{
+    width:100px;
+    background:red;
+    color:white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+    position:absolute;
+    top:-12px;
+    left:56px;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.clock{
+    font-size: 2.25em;
+    text-align: center;
+    background: chartreuse;
+    border-radius: 5px;
+    width:225px;
+    position:absolute;
+    left:40px;
+    font-family: 'PT Mono', monospace;
+    padding-top:5px;
+    
+}
